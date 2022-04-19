@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*probar manana*/
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    
+}
+
+ul {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.hindex {
+    font-size: 3em;
+}
+
+main {
+    background-color: aquamarine;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+section{
+    text-align:center;
+    justify-content: center;
+    
+}
+
+
+footer {
+    color: red;
+    background-color: black;
+    
+}
+
