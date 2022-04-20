@@ -4,46 +4,103 @@
     margin: 0;
 }
 
-/*probar manana*/
 html, body {
     height: 100%;
     width: 100%;
 }
 
 a {
-    color: red;
+    color: rgb(255, 174, 0);
     text-decoration: none;
-    
 }
 
 ul {
-    background-color: black;
+    background-color: rgb(69, 62, 62);
     display: flex;
-    flex-wrap: wrap;
     justify-content:space-around;
-}
-.hindex {
-    font-size: 3em;
+    padding: 4px;
+    margin-bottom: 10px;
 }
 
+
+section h1 {
+    font-size: 2em;
+    padding: 5px; 
+}
+
+/*
 main {
-    background-color: aquamarine;
     height: 100%;
     display: flex;
     justify-content: center;
-    
 }
+*/
 
-section{
+.centercontent {
     text-align:center;
     justify-content: center;
+    flex-direction: column;  
+}
+
+li {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 1px 3px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+
+#fotoperfil {
+    border: 5px solid white;
+    border-radius: 200px;
     
 }
 
 
 footer {
-    color: red;
-    background-color: black;
-    
+    color: rgb(255, 174, 0);
+    background-color: rgb(69, 62, 62);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 3px;
+    width: 100%;
+    text-align: end;  
 }
 
+body {
+    background-image: linear-gradient(rgb(0, 238, 255), rgb(0, 153, 255));
+}
+
+p b i{
+    font-size: 2.5em;
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: right;
+}
+
+
+article {
+    display: inline-flex;
+    padding: 5px;
+}
+
+article p {
+    padding: 0px 5px;
+}
+
+form * {
+    margin: 5px;
+}
+
+input {
+    border-radius: 5px;
+}
