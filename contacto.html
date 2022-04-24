@@ -10,21 +10,18 @@
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="biografia.html">Biografía</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    
+    <nav>          
+        <a href="index.html">Home</a>
+        <a href="biografia.html">Biografía</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
     <section>
-        <h1 class="centercontent">Gracias por tu visita</h1>
+        <h1 class="prueba centercontent">Gracias por tu visita</h1>
         <p>A continuacion tienes un pequeño formulario por si acaso tienes alguna duda en relacion con el contenido de la pagina</p>
-        <form action="enviar.js" method="POST">
+        
+        <form class ="centercontent" action="enviar.js" method="POST">
             <label for="name">Nombre:</label>
             <input type="text" name="name" id="name">
             <br>
@@ -38,9 +35,9 @@
             <input type="email" name="email" id="email">
             <br>
             <textarea id="extra" name="extra" rows="5" cols="60">Introduce tu mensaje...</textarea>
-            
             <input type="submit" value="Enviar">
         </form>
+        
     </section>
     <br>
     
@@ -55,7 +52,8 @@
     </section>
     
     <footer>
-        <p>Powered by <b>Mihai</b> with  &#128147 since 2022. No rights reserved!</p>
+        <p>Powered by <b>Mihai</b> with <span>&#10084</span> since 2022. No rights reserved!</p>
     </footer>
+    </main>
 </body>
 </html>
