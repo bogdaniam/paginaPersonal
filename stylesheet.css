@@ -90,9 +90,7 @@ footer {
     bottom: 0px;
     right: 0px;
     width: 100%; 
-    text-align: end;
-
-    
+    text-align: end; 
 }
 
 span {
@@ -145,14 +143,39 @@ p b i{
 
 iframe, figure img {
     border: 3px solid gray;
+    width: 560px; 
+    height: 315px;
+    margin-bottom: 10px;
 }
+
+.video {
+   /* justify-content: space-around;
+    width: auto;    */
+    display: flex;
+    justify-content: space-evenly;
+ }
 
 .media {
-    margin: 5px 10px 10px 10px;
+    margin: 5px 10px 10px 10px;   
 }
 
+.instagram img {
+    width: 320px;
+    height: 320px;
+    border: 3px solid gray;
+}
 
-   
+.instagram {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+div.ciudad{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 
 
 /*Contacto*/
@@ -171,9 +194,9 @@ p {
     margin: 10px;
 }
 
-section div {
+/*section div {
     margin-left: 10px;   
-}
+}*/
 
 input:focus {
     background-color: rgb(213, 209, 209);
@@ -204,3 +227,12 @@ textarea:focus{
     width: 25px;
     padding: 3px;
  }
+
+ div.contacto {
+    width: min-content;
+    border-radius: 4px;
+    box-shadow: -3px 3px rgb(10, 184, 196);
+    background-color: rgb(14, 215, 230);
+    padding: 4px 0px;
+    margin-left: 6px;
+}
