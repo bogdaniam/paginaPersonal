@@ -176,13 +176,31 @@ div.ciudad{
     justify-content: space-evenly;
 }
 
+.playlist {
+    width: min-content;
+    padding: 20px;
+    margin-bottom: 50px;
+    background-color: rgb(136, 139, 142);
+    border-radius: 4px;
+    box-shadow: -2px 2px rgb(73, 73, 73);
+}
+.playlist ol {
+    color: rgb(255, 0, 0);
+    text-shadow: -1px 1px rgb(0, 0, 0);
+}
 
+div.music{
+    display: flex;
+    justify-content: space-around;
+
+}
 
 /*Contacto*/
 
 form * {
     margin: 5px 5px 5px 10px;
     display: flex;   
+    
 
 }
 
